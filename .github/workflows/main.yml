@@ -99,7 +99,7 @@ jobs:
         with:
           name: macBuild
           path: export/release/macos/bin
- buildAndroid:
+  buildAndroid:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -168,3 +168,4 @@ jobs:
         with:
           name: buildAndroid
           path: export/release/android/bin/app/build/outputs/apk/debug
+
