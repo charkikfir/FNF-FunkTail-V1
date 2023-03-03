@@ -98,8 +98,8 @@ jobs:
         uses: actions/upload-artifact@v2.2.4
         with:
           name: macBuild
-          path: export/release/macos/bin"
-  buildAndroid:
+          path: export/release/macos/bin
+buildAndroid:
     name: buildAndroid
     runs-on: ubuntu-latest
     steps:
